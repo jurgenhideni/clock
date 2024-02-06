@@ -28,18 +28,20 @@
     
     .container h1{
         font-size: 4.5rem;
-        color: rgb(0, 202, 101);
-      
-        text-shadow: rgb(0, 120, 90) 5px 5px 10px;
+        
     }
     .container h2{
         color: white;
-        color: rgb(0, 202, 101);
-                text-shadow: rgb(0, 120, 90) 5px 5px 10px;
         font-size: 2rem;
     }
-   
-    /* Add more styles as needed for smaller screens */
+    .title{
+        position: absolute;
+        top: 20px;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        
+    }
+ 
   }
 
   @media screen and (min-width: 1280px) {
@@ -63,17 +65,14 @@
     
     .container h1{
         font-size: 20rem;
-        color: rgb(0, 202, 101);
-        font-weight: 300;
-        text-shadow: rgb(0, 120, 90) 5px 5px 10px;
+      font-weight: 300;
+    
     }
    
     .container h2{
-        color: white;
-        color: rgb(0, 202, 101);
-        font-weight: 300;
-        text-shadow: rgb(0, 120, 90) 5px 5px 10px;
-        font-size: 5rem;
+      color: white;
+      font-weight: 300;
+      font-size: 5rem;
     }
 
     .clock{
