@@ -21,6 +21,7 @@ function updateTime() {
 
     return(
         <div className="container">
+            <p className="title">Created by @jurgenhideni</p>
             <div className="clock">
             <h1>{time}</h1>
             <h2>{date}</h2>

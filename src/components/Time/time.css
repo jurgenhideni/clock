@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     *{
         margin: 0;
         padding: 0;
@@ -11,30 +12,30 @@
     
     .container{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        font-family: 'Digital-7';
+        font-family: 'Bungee Spice', sans-serif;
         background-color:black;
     
     }
 
-    
+
     .clock{
         text-align: center;
     }
     
     .container h1{
-        font-size: 5rem;
+        font-size: 4.5rem;
         color: rgb(0, 202, 101);
-        font-weight: 300;
+      
         text-shadow: rgb(0, 120, 90) 5px 5px 10px;
     }
     .container h2{
         color: white;
         color: rgb(0, 202, 101);
-        font-weight: 300;
-        text-shadow: rgb(0, 120, 90) 5px 5px 10px;
+                text-shadow: rgb(0, 120, 90) 5px 5px 10px;
         font-size: 2rem;
     }
    
@@ -55,7 +56,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        font-family: 'Digital-7';
+        font-family: 'Bungee Spice', sans-serif;
        background-color: black;
     
     }
@@ -77,5 +78,13 @@
 
     .clock{
         text-align: center;
+    }
+
+    .title{
+        position: absolute;
+        top: 20px;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 2rem;
     }
   }
